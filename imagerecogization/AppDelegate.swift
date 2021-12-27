@@ -7,6 +7,7 @@
 
 import UIKit
 import CoreData
+import UserNotifications
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,11 +16,52 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        self.SetupPushNotification(application: application)
+
         return true
     }
-
-    // MARK: UISceneSession Lifecycle
-
+    func SetupPushNotification(application: UIApplication) -> () {
+        
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert,.sound,.badge])
+        {(granted,error) in
+            if granted{
+                DispatchQueue.main.async {
+                    application.registerForRemoteNotifications()
+                }
+            } else {
+                print("User Notification permission denied: \(error?.localizedDescription ?? "error")")
+            }
+        }
+    }
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        
+        print("Successful registration. Token is:")
+        print(tokenString(deviceToken)) // this method will convert token "Data" to string formate
+    }
+    
+    
+    // Method: 2 - Failed registration. Explain why.
+    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        print("Failed to register for remote notifications: \(error.localizedDescription)")
+    }
+    
+    
+    // Method: 3 - In this method app will receive notifications in [userInfo]
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {
+        print(userInfo)
+        
+    }
+    
+    
+    //code to make a token string
+    func tokenString(_ deviceToken:Data) -> String{
+        let bytes = [UInt8](deviceToken)
+        var token = ""
+        for byte in bytes{
+            token += String(format: "%02x",byte)
+        }
+        return token //  this token will be passed to your backend that can be written in php, js, .net etc.
+    }
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.
