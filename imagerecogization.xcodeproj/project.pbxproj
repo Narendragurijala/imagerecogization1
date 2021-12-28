@@ -57,6 +57,7 @@
 		1F9CAC9B277ACE5800EAFB38 /* RequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CAC9A277ACE5800EAFB38 /* RequestTableViewCell.swift */; };
 		1F9CACE8277AE45200EAFB38 /* HorizentalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CACE7277AE45200EAFB38 /* HorizentalViewController.swift */; };
 		1F9CACED277AE54700EAFB38 /* HorizentalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CACEC277AE54700EAFB38 /* HorizentalCollectionViewCell.swift */; };
+		1F9CACF6277B026E00EAFB38 /* TabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CACF5277B026E00EAFB38 /* TabsViewController.swift */; };
 		1F9E92E127797802003E5A89 /* ForshellPayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E92E027797802003E5A89 /* ForshellPayViewController.swift */; };
 		1F9E92E627797A49003E5A89 /* ForshellPayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E92E527797A49003E5A89 /* ForshellPayCollectionViewCell.swift */; };
 		1F9E92EB27798939003E5A89 /* ForshellsecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E92EA27798939003E5A89 /* ForshellsecondCollectionViewCell.swift */; };
@@ -158,6 +159,7 @@
 		1F9CAC9A277ACE5800EAFB38 /* RequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTableViewCell.swift; sourceTree = "<group>"; };
 		1F9CACE7277AE45200EAFB38 /* HorizentalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizentalViewController.swift; sourceTree = "<group>"; };
 		1F9CACEC277AE54700EAFB38 /* HorizentalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizentalCollectionViewCell.swift; sourceTree = "<group>"; };
+		1F9CACF5277B026E00EAFB38 /* TabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsViewController.swift; sourceTree = "<group>"; };
 		1F9E92E027797802003E5A89 /* ForshellPayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForshellPayViewController.swift; sourceTree = "<group>"; };
 		1F9E92E527797A49003E5A89 /* ForshellPayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForshellPayCollectionViewCell.swift; sourceTree = "<group>"; };
 		1F9E92EA27798939003E5A89 /* ForshellsecondCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForshellsecondCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -314,6 +316,7 @@
 				1F9CACE7277AE45200EAFB38 /* HorizentalViewController.swift */,
 				1F9CACEC277AE54700EAFB38 /* HorizentalCollectionViewCell.swift */,
 				1F9CAC9A277ACE5800EAFB38 /* RequestTableViewCell.swift */,
+				1F9CACF5277B026E00EAFB38 /* TabsViewController.swift */,
 				1F610B0F274BE79D0001F0B1 /* Main.storyboard */,
 				1FCBF32A2727FD110098390C /* Assets.xcassets */,
 				1FCBF32C2727FD110098390C /* LaunchScreen.storyboard */,
@@ -711,6 +714,7 @@
 				1F65B0452771D101000A4183 /* ApiService.swift in Sources */,
 				1F538A6E2770952800EA91DE /* sqliteViewController.swift in Sources */,
 				1F65B0782771D53D000A4183 /* MovieViewModel.swift in Sources */,
+				1F9CACF6277B026E00EAFB38 /* TabsViewController.swift in Sources */,
 				1F65B0362771D0E4000A4183 /* MovieTableViewCell.swift in Sources */,
 				1F538A502770619700EA91DE /* EleTricityViewController.swift in Sources */,
 				1F65B0402771D0F9000A4183 /* MovieViewController.swift in Sources */,
