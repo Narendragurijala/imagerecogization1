@@ -1,12 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "Gallery.png",
+      "filename" : "Group.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "facebook.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

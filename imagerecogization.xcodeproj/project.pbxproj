@@ -58,6 +58,9 @@
 		1F9CACE8277AE45200EAFB38 /* HorizentalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CACE7277AE45200EAFB38 /* HorizentalViewController.swift */; };
 		1F9CACED277AE54700EAFB38 /* HorizentalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CACEC277AE54700EAFB38 /* HorizentalCollectionViewCell.swift */; };
 		1F9CACF6277B026E00EAFB38 /* TabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CACF5277B026E00EAFB38 /* TabsViewController.swift */; };
+		1F9CACFF277B0CFB00EAFB38 /* roomsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CACFE277B0CFB00EAFB38 /* roomsCollectionViewCell.swift */; };
+		1F9CAD04277B130300EAFB38 /* createroomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CAD03277B130300EAFB38 /* createroomCollectionViewCell.swift */; };
+		1F9CAD09277B1BB700EAFB38 /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CAD08277B1BB700EAFB38 /* StoryCollectionViewCell.swift */; };
 		1F9E92E127797802003E5A89 /* ForshellPayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E92E027797802003E5A89 /* ForshellPayViewController.swift */; };
 		1F9E92E627797A49003E5A89 /* ForshellPayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E92E527797A49003E5A89 /* ForshellPayCollectionViewCell.swift */; };
 		1F9E92EB27798939003E5A89 /* ForshellsecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E92EA27798939003E5A89 /* ForshellsecondCollectionViewCell.swift */; };
@@ -160,6 +163,9 @@
 		1F9CACE7277AE45200EAFB38 /* HorizentalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizentalViewController.swift; sourceTree = "<group>"; };
 		1F9CACEC277AE54700EAFB38 /* HorizentalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizentalCollectionViewCell.swift; sourceTree = "<group>"; };
 		1F9CACF5277B026E00EAFB38 /* TabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsViewController.swift; sourceTree = "<group>"; };
+		1F9CACFE277B0CFB00EAFB38 /* roomsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roomsCollectionViewCell.swift; sourceTree = "<group>"; };
+		1F9CAD03277B130300EAFB38 /* createroomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createroomCollectionViewCell.swift; sourceTree = "<group>"; };
+		1F9CAD08277B1BB700EAFB38 /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		1F9E92E027797802003E5A89 /* ForshellPayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForshellPayViewController.swift; sourceTree = "<group>"; };
 		1F9E92E527797A49003E5A89 /* ForshellPayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForshellPayCollectionViewCell.swift; sourceTree = "<group>"; };
 		1F9E92EA27798939003E5A89 /* ForshellsecondCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForshellsecondCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -317,6 +323,9 @@
 				1F9CACEC277AE54700EAFB38 /* HorizentalCollectionViewCell.swift */,
 				1F9CAC9A277ACE5800EAFB38 /* RequestTableViewCell.swift */,
 				1F9CACF5277B026E00EAFB38 /* TabsViewController.swift */,
+				1F9CACFE277B0CFB00EAFB38 /* roomsCollectionViewCell.swift */,
+				1F9CAD03277B130300EAFB38 /* createroomCollectionViewCell.swift */,
+				1F9CAD08277B1BB700EAFB38 /* StoryCollectionViewCell.swift */,
 				1F610B0F274BE79D0001F0B1 /* Main.storyboard */,
 				1FCBF32A2727FD110098390C /* Assets.xcassets */,
 				1FCBF32C2727FD110098390C /* LaunchScreen.storyboard */,
@@ -683,7 +692,9 @@
 				1F538A3727703F3D00EA91DE /* FlipkartViewController.swift in Sources */,
 				1F65AFFF2771B7A2000A4183 /* List.swift in Sources */,
 				1FF3A9B6277599B300DB35A9 /* DemoCollectionViewCell.swift in Sources */,
+				1F9CACFF277B0CFB00EAFB38 /* roomsCollectionViewCell.swift in Sources */,
 				1F538A682770950B00EA91DE /* DBHelper.swift in Sources */,
+				1F9CAD04277B130300EAFB38 /* createroomCollectionViewCell.swift in Sources */,
 				1F82FB62276C5E4B00A80863 /* MenuViewController.swift in Sources */,
 				1F9E92F027798F36003E5A89 /* InsuranceCollectionViewCell.swift in Sources */,
 				1F82FB4A276C57C000A80863 /* slidemenuViewController.swift in Sources */,
@@ -707,6 +718,7 @@
 				1F82FB64276C5E4B00A80863 /* MenuTableViewCell.swift in Sources */,
 				1F65B0B12771D84A000A4183 /* jsonPostDemoViewController.swift in Sources */,
 				1F65AFE127719A9F000A4183 /* webservicesViewController.swift in Sources */,
+				1F9CAD09277B1BB700EAFB38 /* StoryCollectionViewCell.swift in Sources */,
 				1F9E92F527799CC8003E5A89 /* BusTicketViewController.swift in Sources */,
 				1F65AFDB27719A1E000A4183 /* UserCell.swift in Sources */,
 				1F65B0312771D0CF000A4183 /* Model.swift in Sources */,

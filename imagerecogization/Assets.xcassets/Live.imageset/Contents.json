@@ -1,12 +1,12 @@
 {
   "images" : [
     {
-      "filename" : "Gallery.png",
+      "filename" : "Live.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "facebook.png",
+      "filename" : "Manone.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
