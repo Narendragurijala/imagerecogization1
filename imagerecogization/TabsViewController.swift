@@ -11,6 +11,7 @@ class TabsViewController: UIViewController {
     var proFileString:[String] = ["Reel","Room","Group","Live"]
     var imageString:[String] = ["Reel","Room","Group","Live"]
     var imageString1:[String] = ["ManTwo","ManTwo","ManTwo","ManTwo"]
+    var imageString2:[String] = ["storyTwo","storyTwo","storyTwo","storyTwo"]
 
     @IBOutlet var createroomcollectionview: UICollectionView!
     @IBOutlet var shadowview: UIView!
@@ -18,6 +19,7 @@ class TabsViewController: UIViewController {
     @IBOutlet var storycollectionview: UICollectionView!
     
     @IBOutlet var shadowviewtwo: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.profileview.layer.cornerRadius = 26
@@ -78,6 +80,11 @@ extension TabsViewController: UICollectionViewDataSource {
 
         cell.rommslabel.text = self.proFileString[indexPath.row]
         cell.roomsimage.image = UIImage(named:self.imageString[indexPath.row])
+            return cell
+        }
+        else if collectionView == storycollectionview{
+            let cell = self.storycollectionview.dequeueReusableCell(withReuseIdentifier: "StoryCollectionViewCell", for: indexPath)as!StoryCollectionViewCell
+        cell.imageview.image = UIImage(named:self.imageString2[indexPath.row])
             return cell
         }
         else{

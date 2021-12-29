@@ -9,4 +9,5 @@ import UIKit
 
 class StoryCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet var imageview: UIImageView!
 }
