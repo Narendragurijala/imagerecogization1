@@ -11,15 +11,15 @@ import Alamofire
 
 class UserViewModel{
     
-    weak var vc: webservicesViewController?
-    var arrUsers = [UserModel]()
+    weak var vc: MyTabViewController?
+    var arrUsers = [UserModel1]()
     
     func getAllUsreDataAF(){
         
         AF.request("https://jsonplaceholder.typicode.com/todos/").response { response in
             if let data = response.data {
                 do{
-                    let userResponse = try JSONDecoder().decode([UserModel].self, from: data)
+                    let userResponse = try JSONDecoder().decode([UserModel1].self, from: data)
                     self.arrUsers.append(contentsOf: userResponse)
                     DispatchQueue.main.async{
                         self.vc?.tblView.reloadData()
@@ -36,7 +36,7 @@ class UserViewModel{
             if error == nil{
                 if let data = data {
                     do{
-                        let userResponse = try JSONDecoder().decode([UserModel].self, from: data)
+                        let userResponse = try JSONDecoder().decode([UserModel1].self, from: data)
                         self.arrUsers.append(contentsOf: userResponse)
                         DispatchQueue.main.async{
                             self.vc?.tblView.reloadData()

@@ -6,9 +6,9 @@
 //  Copyright © 2019 Aman Aggarwal. All rights reserved.
 //
 
-import Foundation
-
-struct User {
-    var userName:String
-    var email:String
-}
+//import Foundation
+//
+//struct User {
+//    var userName:String
+//    var email:String
+//}

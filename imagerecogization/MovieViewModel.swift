@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MovieViewModel: NSObject {
+class MovieViewModel1: NSObject {
 
     var artistName: String?
     var trackName: String?

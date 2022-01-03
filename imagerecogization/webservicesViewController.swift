@@ -15,7 +15,7 @@ class webservicesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tblView.register(UINib(nibName: "UserCell", bundle: nil), forCellReuseIdentifier: "UserCell")
-        viewModelUser.vc = self
+//        viewModelUser.vc = self
         viewModelUser.getAllUserData()
     }
     
@@ -29,7 +29,7 @@ extension webservicesViewController: UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "UserCell", for: indexPath) as? UserCell
-        cell?.modelUser = viewModelUser.arrUsers[indexPath.row]
+        //cell?.modelUser = viewModelUser.arrUsers[indexPath.row]
         return cell!
     }
 }

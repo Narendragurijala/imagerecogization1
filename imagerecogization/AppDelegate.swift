@@ -13,9 +13,16 @@ import UserNotifications
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
+    var window: UIWindow?
 
+    static var menu_bool = true
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//        let presenter = MainViewPresenter()
+//        let rootViewController = MainViewController(with: presenter)
+//        window?.rootViewController = rootViewController
+//        window?.makeKeyAndVisible()
         self.SetupPushNotification(application: application)
 
         return true

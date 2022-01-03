@@ -13,7 +13,7 @@ class UserCell: UITableViewCell {
     @IBOutlet weak var lblID: UILabel!
     @IBOutlet weak var lblTitle: UILabel!
     @IBOutlet weak var lblStatus: UILabel!
-    var modelUser: UserModel?{
+    var modelUser: UserModel1?{
         didSet{
             userConfiguration()
         }

@@ -68,5 +68,7 @@
 	<string>Speach usage Description</string>
 	<key>NSCameraUsageDescription</key>
 	<string>camera location any where use</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>bla-bla-bla</string>
 </dict>
 </plist>

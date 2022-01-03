@@ -14,7 +14,7 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 import Foundation
 import UIKit
 
-struct UserModel : Codable {
+struct UserModel1 : Codable {
 	let uid : Int?
 	let id : Int?
 	let title : String?
