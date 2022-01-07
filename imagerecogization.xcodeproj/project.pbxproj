@@ -19,9 +19,14 @@
 		1F538A682770950B00EA91DE /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F538A662770950B00EA91DE /* DBHelper.swift */; };
 		1F538A692770950B00EA91DE /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F538A672770950B00EA91DE /* Person.swift */; };
 		1F538A6E2770952800EA91DE /* sqliteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F538A6D2770952800EA91DE /* sqliteViewController.swift */; };
+		1F5A5FD227840E2200E37DDF /* ownLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5A5FD127840E2200E37DDF /* ownLoginViewController.swift */; };
+		1F5A5FEC27841E2900E37DDF /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5A5FEB27841E2900E37DDF /* MVVMViewController.swift */; };
+		1F5A5FF127841E6F00E37DDF /* MYMovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5A5FF027841E6F00E37DDF /* MYMovieViewModel.swift */; };
+		1F5A5FF627841E9600E37DDF /* MyMovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5A5FF527841E9600E37DDF /* MyMovieModel.swift */; };
+		1F5A60422784438A00E37DDF /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5A60412784438A00E37DDF /* Service.swift */; };
+		1F5A6047278443FD00E37DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A6046278443FD00E37DDF /* Main.storyboard */; };
 		1F610B07274BE7240001F0B1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F610B05274BE7240001F0B1 /* TableViewCell.swift */; };
 		1F610B08274BE7240001F0B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F610B06274BE7240001F0B1 /* ViewController.swift */; };
-		1F610B10274BE79D0001F0B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F610B0F274BE79D0001F0B1 /* Main.storyboard */; };
 		1F61464C2782B3E50071F417 /* chatTabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F61464B2782B3E50071F417 /* chatTabelViewController.swift */; };
 		1F6146512782B9F10071F417 /* chatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6146502782B9F10071F417 /* chatTableViewCell.swift */; };
 		1F6146562782C3BE0071F417 /* slideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6146552782C3BE0071F417 /* slideViewController.swift */; };
@@ -29,7 +34,14 @@
 		1F6146602782CB5A0071F417 /* slidetabelviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F61465F2782CB5A0071F417 /* slidetabelviewViewController.swift */; };
 		1F6146652782CC3C0071F417 /* menufinalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6146642782CC3C0071F417 /* menufinalTableViewCell.swift */; };
 		1F61466A2782ECE60071F417 /* MycartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6146692782ECE60071F417 /* MycartViewController.swift */; };
+		1F61468227831B690071F417 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F61468127831B690071F417 /* LoginPresenter.swift */; };
+		1F61468A27831BFD0071F417 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F61468927831BFD0071F417 /* LoginViewController.swift */; };
+		1F61468F27831CAC0071F417 /* UserModelfinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F61468E27831CAC0071F417 /* UserModelfinal.swift */; };
 		1F62F5822772F1FE00245059 /* QrcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F62F5812772F1FE00245059 /* QrcodeViewController.swift */; };
+		1F63209F2786AC4700FDA37D /* WinterFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F63209E2786AC4700FDA37D /* WinterFoodViewController.swift */; };
+		1F6320A42786B45800FDA37D /* WinterFoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6320A32786B45800FDA37D /* WinterFoodTableViewCell.swift */; };
+		1F6320A92786C00000FDA37D /* DeliveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6320A82786C00000FDA37D /* DeliveryViewController.swift */; };
+		1F6320B12786E16300FDA37D /* DeliveryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6320B02786E16300FDA37D /* DeliveryTableViewCell.swift */; };
 		1F65AFD0277199C7000A4183 /* UserModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65AFCF277199C7000A4183 /* UserModel1.swift */; };
 		1F65AFD5277199F2000A4183 /* UserViewModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65AFD4277199F2000A4183 /* UserViewModel1.swift */; };
 		1F65AFDB27719A1E000A4183 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65AFD927719A1E000A4183 /* UserCell.swift */; };
@@ -94,6 +106,7 @@
 		1F9E92F527799CC8003E5A89 /* BusTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E92F427799CC8003E5A89 /* BusTicketViewController.swift */; };
 		1F9EB514272A7B3F00BB0DF3 /* GetStartedWithSmallpdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F9EB513272A7B3F00BB0DF3 /* GetStartedWithSmallpdf.pdf */; };
 		1F9EB51C272A7BB900BB0DF3 /* I-20-sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1F9EB51B272A7BB900BB0DF3 /* I-20-sample.pdf */; };
+		1FAF539D2788083600F3BD31 /* EmiAvailabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAF539C2788083600F3BD31 /* EmiAvailabelViewController.swift */; };
 		1FCBF31F2727FD100098390C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCBF31E2727FD100098390C /* AppDelegate.swift */; };
 		1FCBF3212727FD100098390C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCBF3202727FD100098390C /* SceneDelegate.swift */; };
 		1FCBF3292727FD100098390C /* imagerecogization.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FCBF3272727FD100098390C /* imagerecogization.xcdatamodeld */; };
@@ -104,6 +117,10 @@
 		1FCBF36127280AE50098390C /* birthday image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1FCBF36027280AE50098390C /* birthday image.jpeg */; };
 		1FCBF36627280C0F0098390C /* Screenshot_1635064015.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCBF36527280C0F0098390C /* Screenshot_1635064015.png */; };
 		1FCBF36B272811590098390C /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1FCBF36A272811590098390C /* sample.pdf */; };
+		1FD4E3C62785603700B56A91 /* collectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4E3C52785603700B56A91 /* collectionViewController.swift */; };
+		1FD4E3CB278560B100B56A91 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4E3CA278560B100B56A91 /* DetailViewController.swift */; };
+		1FD4E3F02785A1C900B56A91 /* AudioplayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4E3EF2785A1C900B56A91 /* AudioplayerViewController.swift */; };
+		1FD4E3F52785B1AD00B56A91 /* PopUpUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4E3F42785B1AD00B56A91 /* PopUpUpController.swift */; };
 		1FE45B28276B38D900C811AA /* superIconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE45B27276B38D900C811AA /* superIconViewController.swift */; };
 		1FE45B2D276B3CED00C811AA /* SuperIconCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE45B2C276B3CED00C811AA /* SuperIconCollectionViewCell.swift */; };
 		1FE45B3A276B50B400C811AA /* secondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE45B39276B50B400C811AA /* secondCollectionViewCell.swift */; };
@@ -148,9 +165,14 @@
 		1F538A662770950B00EA91DE /* DBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
 		1F538A672770950B00EA91DE /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		1F538A6D2770952800EA91DE /* sqliteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sqliteViewController.swift; sourceTree = "<group>"; };
+		1F5A5FD127840E2200E37DDF /* ownLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ownLoginViewController.swift; sourceTree = "<group>"; };
+		1F5A5FEB27841E2900E37DDF /* MVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController.swift; sourceTree = "<group>"; };
+		1F5A5FF027841E6F00E37DDF /* MYMovieViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MYMovieViewModel.swift; sourceTree = "<group>"; };
+		1F5A5FF527841E9600E37DDF /* MyMovieModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMovieModel.swift; sourceTree = "<group>"; };
+		1F5A60412784438A00E37DDF /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Service.swift; path = "../../../MVVM/Model-View-ViewModel-MVVM--master/MVVM 2/MVVMYOUTUBE/Service/Service.swift"; sourceTree = "<group>"; };
+		1F5A6046278443FD00E37DDF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1F610B05274BE7240001F0B1 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		1F610B06274BE7240001F0B1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1F610B0F274BE79D0001F0B1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1F61464B2782B3E50071F417 /* chatTabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatTabelViewController.swift; sourceTree = "<group>"; };
 		1F6146502782B9F10071F417 /* chatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatTableViewCell.swift; sourceTree = "<group>"; };
 		1F6146552782C3BE0071F417 /* slideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slideViewController.swift; sourceTree = "<group>"; };
@@ -158,7 +180,14 @@
 		1F61465F2782CB5A0071F417 /* slidetabelviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slidetabelviewViewController.swift; sourceTree = "<group>"; };
 		1F6146642782CC3C0071F417 /* menufinalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menufinalTableViewCell.swift; sourceTree = "<group>"; };
 		1F6146692782ECE60071F417 /* MycartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MycartViewController.swift; sourceTree = "<group>"; };
+		1F61468127831B690071F417 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		1F61468927831BFD0071F417 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1F61468E27831CAC0071F417 /* UserModelfinal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelfinal.swift; sourceTree = "<group>"; };
 		1F62F5812772F1FE00245059 /* QrcodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrcodeViewController.swift; sourceTree = "<group>"; };
+		1F63209E2786AC4700FDA37D /* WinterFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterFoodViewController.swift; sourceTree = "<group>"; };
+		1F6320A32786B45800FDA37D /* WinterFoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterFoodTableViewCell.swift; sourceTree = "<group>"; };
+		1F6320A82786C00000FDA37D /* DeliveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryViewController.swift; sourceTree = "<group>"; };
+		1F6320B02786E16300FDA37D /* DeliveryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryTableViewCell.swift; sourceTree = "<group>"; };
 		1F65AFCF277199C7000A4183 /* UserModel1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel1.swift; sourceTree = "<group>"; };
 		1F65AFD4277199F2000A4183 /* UserViewModel1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel1.swift; sourceTree = "<group>"; };
 		1F65AFD927719A1E000A4183 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
@@ -225,6 +254,7 @@
 		1F9E92F427799CC8003E5A89 /* BusTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTicketViewController.swift; sourceTree = "<group>"; };
 		1F9EB513272A7B3F00BB0DF3 /* GetStartedWithSmallpdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GetStartedWithSmallpdf.pdf; sourceTree = "<group>"; };
 		1F9EB51B272A7BB900BB0DF3 /* I-20-sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "I-20-sample.pdf"; sourceTree = "<group>"; };
+		1FAF539C2788083600F3BD31 /* EmiAvailabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmiAvailabelViewController.swift; sourceTree = "<group>"; };
 		1FCBF31B2727FD100098390C /* imagerecogization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imagerecogization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCBF31E2727FD100098390C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FCBF3202727FD100098390C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -241,6 +271,10 @@
 		1FCBF36027280AE50098390C /* birthday image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "birthday image.jpeg"; sourceTree = "<group>"; };
 		1FCBF36527280C0F0098390C /* Screenshot_1635064015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot_1635064015.png; sourceTree = "<group>"; };
 		1FCBF36A272811590098390C /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample.pdf; sourceTree = "<group>"; };
+		1FD4E3C52785603700B56A91 /* collectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewController.swift; sourceTree = "<group>"; };
+		1FD4E3CA278560B100B56A91 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1FD4E3EF2785A1C900B56A91 /* AudioplayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioplayerViewController.swift; sourceTree = "<group>"; };
+		1FD4E3F42785B1AD00B56A91 /* PopUpUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpUpController.swift; sourceTree = "<group>"; };
 		1FE45B27276B38D900C811AA /* superIconViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = superIconViewController.swift; sourceTree = "<group>"; };
 		1FE45B2C276B3CED00C811AA /* SuperIconCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperIconCollectionViewCell.swift; sourceTree = "<group>"; };
 		1FE45B39276B50B400C811AA /* secondCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -404,7 +438,24 @@
 				1F61465F2782CB5A0071F417 /* slidetabelviewViewController.swift */,
 				1F6146642782CC3C0071F417 /* menufinalTableViewCell.swift */,
 				1F6146692782ECE60071F417 /* MycartViewController.swift */,
-				1F610B0F274BE79D0001F0B1 /* Main.storyboard */,
+				1F61468127831B690071F417 /* LoginPresenter.swift */,
+				1F61468927831BFD0071F417 /* LoginViewController.swift */,
+				1F61468E27831CAC0071F417 /* UserModelfinal.swift */,
+				1F5A5FD127840E2200E37DDF /* ownLoginViewController.swift */,
+				1F5A5FF527841E9600E37DDF /* MyMovieModel.swift */,
+				1F5A5FF027841E6F00E37DDF /* MYMovieViewModel.swift */,
+				1F5A5FEB27841E2900E37DDF /* MVVMViewController.swift */,
+				1F5A60412784438A00E37DDF /* Service.swift */,
+				1FD4E3C52785603700B56A91 /* collectionViewController.swift */,
+				1FD4E3CA278560B100B56A91 /* DetailViewController.swift */,
+				1FD4E3EF2785A1C900B56A91 /* AudioplayerViewController.swift */,
+				1FD4E3F42785B1AD00B56A91 /* PopUpUpController.swift */,
+				1F63209E2786AC4700FDA37D /* WinterFoodViewController.swift */,
+				1F6320A32786B45800FDA37D /* WinterFoodTableViewCell.swift */,
+				1F6320A82786C00000FDA37D /* DeliveryViewController.swift */,
+				1F6320B02786E16300FDA37D /* DeliveryTableViewCell.swift */,
+				1FAF539C2788083600F3BD31 /* EmiAvailabelViewController.swift */,
+				1F5A6046278443FD00E37DDF /* Main.storyboard */,
 				1FCBF32A2727FD110098390C /* Assets.xcassets */,
 				1FCBF32C2727FD110098390C /* LaunchScreen.storyboard */,
 				1FCBF36027280AE50098390C /* birthday image.jpeg */,
@@ -574,10 +625,10 @@
 				1F9EB514272A7B3F00BB0DF3 /* GetStartedWithSmallpdf.pdf in Resources */,
 				1FCBF32E2727FD110098390C /* LaunchScreen.storyboard in Resources */,
 				1FCBF36627280C0F0098390C /* Screenshot_1635064015.png in Resources */,
-				1F610B10274BE79D0001F0B1 /* Main.storyboard in Resources */,
 				1FCBF36B272811590098390C /* sample.pdf in Resources */,
 				1F65AFDC27719A1E000A4183 /* UserCell.xib in Resources */,
 				1FCBF36127280AE50098390C /* birthday image.jpeg in Resources */,
+				1F5A6047278443FD00E37DDF /* Main.storyboard in Resources */,
 				1FCBF32B2727FD110098390C /* Assets.xcassets in Resources */,
 				1F9EB51C272A7BB900BB0DF3 /* I-20-sample.pdf in Resources */,
 			);
@@ -743,26 +794,35 @@
 			files = (
 				1F610B08274BE7240001F0B1 /* ViewController.swift in Sources */,
 				1F530898277EF9F30003FCBC /* RegisterViewController.swift in Sources */,
+				1F5A5FEC27841E2900E37DDF /* MVVMViewController.swift in Sources */,
 				1F9CAD26277B3F9700EAFB38 /* AutolayoutTwoViewController.swift in Sources */,
 				1F65B0F02771FC23000A4183 /* PostModel.swift in Sources */,
 				1F9CAC96277ACAB700EAFB38 /* RequestViewController.swift in Sources */,
 				1F9CAD0F277B32A300EAFB38 /* MvcViewController.swift in Sources */,
 				1F62F5822772F1FE00245059 /* QrcodeViewController.swift in Sources */,
 				1FCBF31F2727FD100098390C /* AppDelegate.swift in Sources */,
+				1F6320A42786B45800FDA37D /* WinterFoodTableViewCell.swift in Sources */,
 				1F65B0192771CAD6000A4183 /* DogViewController.swift in Sources */,
 				1F65AFD0277199C7000A4183 /* UserModel1.swift in Sources */,
 				1F9E92E627797A49003E5A89 /* ForshellPayCollectionViewCell.swift in Sources */,
 				1F61466A2782ECE60071F417 /* MycartViewController.swift in Sources */,
 				1F610B07274BE7240001F0B1 /* TableViewCell.swift in Sources */,
 				1F82FB54276C594F00A80863 /* unameViewController.swift in Sources */,
+				1FAF539D2788083600F3BD31 /* EmiAvailabelViewController.swift in Sources */,
+				1F5A5FD227840E2200E37DDF /* ownLoginViewController.swift in Sources */,
+				1FD4E3F02785A1C900B56A91 /* AudioplayerViewController.swift in Sources */,
 				1FE45B2D276B3CED00C811AA /* SuperIconCollectionViewCell.swift in Sources */,
 				1F80A806277D76440084FA3E /* coreDatasecondViewController.swift in Sources */,
+				1F61468227831B690071F417 /* LoginPresenter.swift in Sources */,
 				1F9E92EB27798939003E5A89 /* ForshellsecondCollectionViewCell.swift in Sources */,
+				1FD4E3CB278560B100B56A91 /* DetailViewController.swift in Sources */,
 				1F65B0DF2771F960000A4183 /* PostTwoViewController.swift in Sources */,
 				1F65B0232771CB0F000A4183 /* Dog.swift in Sources */,
+				1F5A5FF127841E6F00E37DDF /* MYMovieViewModel.swift in Sources */,
 				1FE45B3A276B50B400C811AA /* secondCollectionViewCell.swift in Sources */,
 				1F912922277C219800E4CD9F /* AutolayoutfourViewController.swift in Sources */,
 				1F912A25277C6FE500E4CD9F /* KingfisherViewController.swift in Sources */,
+				1F61468A27831BFD0071F417 /* LoginViewController.swift in Sources */,
 				1F912A01277C6DA800E4CD9F /* MainViewPresenter.swift in Sources */,
 				1F6146562782C3BE0071F417 /* slideViewController.swift in Sources */,
 				1FF3A9B12775970900DB35A9 /* mainDemoCollectionViewCell.swift in Sources */,
@@ -774,16 +834,19 @@
 				1F538A552770663500EA91DE /* BillabelTableViewCell.swift in Sources */,
 				1F538A692770950B00EA91DE /* Person.swift in Sources */,
 				1F9E92E127797802003E5A89 /* ForshellPayViewController.swift in Sources */,
+				1FD4E3C62785603700B56A91 /* collectionViewController.swift in Sources */,
 				1F65AFE72771A1A2000A4183 /* PostLoginViewController.swift in Sources */,
 				1F65AFF12771A21E000A4183 /* User.swift in Sources */,
 				1F912A09277C6DB800E4CD9F /* MainView.swift in Sources */,
 				1FE45B28276B38D900C811AA /* superIconViewController.swift in Sources */,
 				1F65AFD5277199F2000A4183 /* UserViewModel1.swift in Sources */,
 				1F538A3727703F3D00EA91DE /* FlipkartViewController.swift in Sources */,
+				1F61468F27831CAC0071F417 /* UserModelfinal.swift in Sources */,
 				1F65AFFF2771B7A2000A4183 /* List.swift in Sources */,
 				1FF3A9B6277599B300DB35A9 /* DemoCollectionViewCell.swift in Sources */,
 				1F9CACFF277B0CFB00EAFB38 /* roomsCollectionViewCell.swift in Sources */,
 				1F538A682770950B00EA91DE /* DBHelper.swift in Sources */,
+				1FD4E3F52785B1AD00B56A91 /* PopUpUpController.swift in Sources */,
 				1F9CAD04277B130300EAFB38 /* createroomCollectionViewCell.swift in Sources */,
 				1F82FB62276C5E4B00A80863 /* MenuViewController.swift in Sources */,
 				1F9E92F027798F36003E5A89 /* InsuranceCollectionViewCell.swift in Sources */,
@@ -816,6 +879,7 @@
 				1F80A852277DC7890084FA3E /* PostLogiViewController.swift in Sources */,
 				1F82FB64276C5E4B00A80863 /* MenuTableViewCell.swift in Sources */,
 				1F65B0B12771D84A000A4183 /* jsonPostDemoViewController.swift in Sources */,
+				1F6320A92786C00000FDA37D /* DeliveryViewController.swift in Sources */,
 				1F65AFE127719A9F000A4183 /* webservicesViewController.swift in Sources */,
 				1F9CAD09277B1BB700EAFB38 /* StoryCollectionViewCell.swift in Sources */,
 				1F9E92F527799CC8003E5A89 /* BusTicketViewController.swift in Sources */,
@@ -824,13 +888,17 @@
 				1F65B0312771D0CF000A4183 /* Model.swift in Sources */,
 				1F65B0042771B7B4000A4183 /* ListViewModel.swift in Sources */,
 				1F65B0452771D101000A4183 /* ApiService.swift in Sources */,
+				1F63209F2786AC4700FDA37D /* WinterFoodViewController.swift in Sources */,
 				1F538A6E2770952800EA91DE /* sqliteViewController.swift in Sources */,
 				1F9CACF6277B026E00EAFB38 /* TabsViewController.swift in Sources */,
 				1F9129B7277C596600E4CD9F /* MovieViewModel.swift in Sources */,
 				1F6146652782CC3C0071F417 /* menufinalTableViewCell.swift in Sources */,
 				1F65B0362771D0E4000A4183 /* MovieTableViewCell.swift in Sources */,
+				1F6320B12786E16300FDA37D /* DeliveryTableViewCell.swift in Sources */,
 				1F538A502770619700EA91DE /* EleTricityViewController.swift in Sources */,
+				1F5A60422784438A00E37DDF /* Service.swift in Sources */,
 				1F80A80B277D77930084FA3E /* coredatathreeViewController.swift in Sources */,
+				1F5A5FF627841E9600E37DDF /* MyMovieModel.swift in Sources */,
 				1F912A20277C6FA700E4CD9F /* JsonModel.swift in Sources */,
 				1F9CAD14277B32E200EAFB38 /* DataModel.swift in Sources */,
 				1F9129F1277C5DBA00E4CD9F /* MyTabViewController.swift in Sources */,

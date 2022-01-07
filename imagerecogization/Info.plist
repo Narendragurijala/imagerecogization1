@@ -70,5 +70,12 @@
 	<string>camera location any where use</string>
     <key>NSPhotoLibraryUsageDescription</key>
     <string>bla-bla-bla</string>
+    
+    
+    <key>NSAppTransportSecurity</key>
+        <dict>
+            <key>NSAllowsArbitraryLoads</key>
+            <true/>
+        </dict>
 </dict>
 </plist>
